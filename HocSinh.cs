@@ -9,5 +9,10 @@ namespace thuchanhgit
     public class HocSinh
     {
         //hoc sinh di hoc
+        private string ten;
+        public HocSinh(string ten) 
+        {
+            this.ten = ten;
+        }
     }
 }
